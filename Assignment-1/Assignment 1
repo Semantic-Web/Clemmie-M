@@ -57,5 +57,5 @@ plt.figure();
 plt.barh(width=y,bottom=chart)
 plt.yticks(chart,tuple(x),fontsize=8)
 plt.xlabel('Total Views per Month')
-plt.ylabel('Organization name')
+plt.ylabel('Organization Name')
 plt.show();
