@@ -1,0 +1,441 @@
+@prefix : <http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2> .
+
+<http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#hasHumanMotionPrimitive
+
+:hasHumanMotionPrimitive rdf:type owl:ObjectProperty ;
+                         
+                         rdfs:subPropertyOf :hasPedometerData .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#hasPedometerData
+
+:hasPedometerData rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#hasPedometerSpecifications
+
+:hasPedometerSpecifications rdf:type owl:ObjectProperty ;
+                            
+                            rdfs:subPropertyOf :hasPedometerData .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#hasStartTime
+
+:hasStartTime rdf:type owl:ObjectProperty ;
+              
+              rdfs:subPropertyOf :hasPedometerData .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#hasVolunteer
+
+:hasVolunteer rdf:type owl:ObjectProperty ;
+              
+              rdfs:subPropertyOf :hasPedometerData .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Age
+
+:Age rdf:type owl:Class ;
+     
+     rdfs:subClassOf :Volunteer .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#BrushTeeth
+
+:BrushTeeth rdf:type owl:Class ;
+            
+            rdfs:subClassOf :HumanMotionPrimitives .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#ClimbStairs
+
+:ClimbStairs rdf:type owl:Class ;
+             
+             rdfs:subClassOf :HumanMotionPrimitives .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#CombHair
+
+:CombHair rdf:type owl:Class ;
+          
+          rdfs:subClassOf :HumanMotionPrimitives .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Date
+
+:Date rdf:type owl:Class ;
+      
+      rdfs:subClassOf :StartTime .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#DescendStairs
+
+:DescendStairs rdf:type owl:Class ;
+               
+               rdfs:subClassOf :HumanMotionPrimitives .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#DrinkGlass
+
+:DrinkGlass rdf:type owl:Class ;
+            
+            rdfs:subClassOf :HumanMotionPrimitives .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#EatMeat
+
+:EatMeat rdf:type owl:Class ;
+         
+         rdfs:subClassOf :HumanMotionPrimitives .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#EatSoup
+
+:EatSoup rdf:type owl:Class ;
+         
+         rdfs:subClassOf :HumanMotionPrimitives .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Female
+
+:Female rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Gender .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Gender
+
+:Gender rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Volunteer .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#GetUpBed
+
+:GetUpBed rdf:type owl:Class ;
+          
+          rdfs:subClassOf :HumanMotionPrimitives .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Hour
+
+:Hour rdf:type owl:Class ;
+      
+      rdfs:subClassOf :StartTime .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#HumanMotionPrimitives
+
+:HumanMotionPrimitives rdf:type owl:Class ;
+                       
+                       rdfs:subClassOf :PedometerData .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#ID
+
+:ID rdf:type owl:Class ;
+    
+    rdfs:subClassOf :Volunteer .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#LieDownBed
+
+:LieDownBed rdf:type owl:Class ;
+            
+            rdfs:subClassOf :HumanMotionPrimitives .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Location
+
+:Location rdf:type owl:Class ;
+          
+          rdfs:subClassOf :PedometerSpecifications .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Male
+
+:Male rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Gender .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#MeasurementRange
+
+:MeasurementRange rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :PedometerSpecifications .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Minute
+
+:Minute rdf:type owl:Class ;
+        
+        rdfs:subClassOf :StartTime .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Month
+
+:Month rdf:type owl:Class ;
+       
+       rdfs:subClassOf :StartTime .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#OutputDataRate
+
+:OutputDataRate rdf:type owl:Class ;
+                
+                rdfs:subClassOf :PedometerSpecifications .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Pedometer
+
+:Pedometer rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#PedometerData
+
+:PedometerData rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Pedometer .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#PedometerSpecifications
+
+:PedometerSpecifications rdf:type owl:Class ;
+                         
+                         rdfs:subClassOf :PedometerData .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#PedometerType
+
+:PedometerType rdf:type owl:Class ;
+               
+               rdfs:subClassOf :PedometerSpecifications .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#PourWater
+
+:PourWater rdf:type owl:Class ;
+           
+           rdfs:subClassOf :HumanMotionPrimitives .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Second
+
+:Second rdf:type owl:Class ;
+        
+        rdfs:subClassOf :StartTime .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Sensitivity
+
+:Sensitivity rdf:type owl:Class ;
+             
+             rdfs:subClassOf :PedometerSpecifications .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#SitDownChair
+
+:SitDownChair rdf:type owl:Class ;
+              
+              rdfs:subClassOf :HumanMotionPrimitives .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#StandUpChair
+
+:StandUpChair rdf:type owl:Class ;
+              
+              rdfs:subClassOf :HumanMotionPrimitives .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#StartTime
+
+:StartTime rdf:type owl:Class ;
+           
+           rdfs:subClassOf :PedometerData .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#UseTelephone
+
+:UseTelephone rdf:type owl:Class ;
+              
+              rdfs:subClassOf :HumanMotionPrimitives .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Volunteer
+
+:Volunteer rdf:type owl:Class ;
+           
+           rdfs:subClassOf :PedometerData .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Walk
+
+:Walk rdf:type owl:Class ;
+      
+      rdfs:subClassOf :HumanMotionPrimitives .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Year
+
+:Year rdf:type owl:Class ;
+      
+      rdfs:subClassOf :StartTime .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#xAxis
+
+:xAxis rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Location .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#yAxis
+
+:yAxis rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Location .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#zAxis
+
+:zAxis rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Location .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Accelerometer-2011-04-11-13-28-18-brush_teeth-f1
+
+:Accelerometer-2011-04-11-13-28-18-brush_teeth-f1 rdf:type :PedometerData ,
+                                                           owl:NamedIndividual .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Accelerometer-2011-04-11-13-29-54-brush_teeth-f1
+
+:Accelerometer-2011-04-11-13-29-54-brush_teeth-f1 rdf:type :PedometerData ,
+                                                           owl:NamedIndividual .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Accelerometer-2011-05-30-08-35-11-brush_teeth-f1
+
+:Accelerometer-2011-05-30-08-35-11-brush_teeth-f1 rdf:type :PedometerData ,
+                                                           owl:NamedIndividual .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Accelerometer-2011-05-30-09-36-50-brush_teeth-f1
+
+:Accelerometer-2011-05-30-09-36-50-brush_teeth-f1 rdf:type :PedometerData ,
+                                                           owl:NamedIndividual .
+
+
+
+###  http://www.semanticweb.org/clemmie/ontologies/2015/5/assignment_2#Accelerometer-2011-05-30-10-34-16-brush_teeth-m1
+
+:Accelerometer-2011-05-30-10-34-16-brush_teeth-m1 rdf:type :PedometerData ,
+                                                           owl:NamedIndividual .
+
+
+
+
+
+#################################################################
+#
+#    General axioms
+#
+#################################################################
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :HumanMotionPrimitives
+                :PedometerSpecifications
+                :StartTime
+                :Volunteer
+              )
+] .
+
+
+
+
+###  Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net
+
