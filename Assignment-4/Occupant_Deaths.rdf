@@ -1,0 +1,115 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:socrata="http://www.socrata.com/rdf/terms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:ods="http://open-data-standards.github.com/2012/01/open-data-standards#" xmlns:dcterm="http://purl.org/dc/terms/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dsbase="http://data.cdc.gov/resource/" xmlns:ds="http://data.cdc.gov/resource/an65-3p9b/" xmlns:usps="http://www.w3.org/2000/10/swap/pim/usps#">
+<dsbase:an65-3p9b rdf:about="http://data.cdc.gov/resource/an65-3p9b/1">
+    <socrata:rowID>1</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/an65-3p9b"/>
+    <ds:state>United States</ds:state>
+    <ds:age_0_20>4.0</ds:age_0_20>
+    <ds:age_21_34>10.8</ds:age_21_34>
+    <ds:age_35_54>6.8</ds:age_35_54>
+    <ds:age_55>8.1</ds:age_55>
+    <ds:all_ages>9.4</ds:all_ages>
+    <ds:male>4.7</ds:male>
+    <ds:female>7.0</ds:female>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>39.759995942000046</geo:lat>
+        <geo:long>-98.49999896099996</geo:long>
+        <usps:stateAbbr>United States</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></dsbase:an65-3p9b>
+<dsbase:an65-3p9b rdf:about="http://data.cdc.gov/resource/an65-3p9b/2">
+    <socrata:rowID>2</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/an65-3p9b"/>
+    <ds:state>Connecticut</ds:state>
+    <ds:age_21_34>7.5</ds:age_21_34>
+    <ds:age_35_54>4.0</ds:age_35_54>
+    <ds:age_55>5.2</ds:age_55>
+    <ds:all_ages>4.1</ds:all_ages>
+    <ds:male>5.4</ds:male>
+    <ds:female>2.9</ds:female>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>41.56266070000004</geo:lat>
+        <geo:long>-72.64983977999998</geo:long>
+        <usps:stateAbbr>Connecticut</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></dsbase:an65-3p9b>
+<dsbase:an65-3p9b rdf:about="http://data.cdc.gov/resource/an65-3p9b/3">
+    <socrata:rowID>3</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/an65-3p9b"/>
+    <ds:state>Maine</ds:state>
+    <ds:age_0_20>6.6</ds:age_0_20>
+    <ds:age_21_34>18.0</ds:age_21_34>
+    <ds:age_35_54>7.3</ds:age_35_54>
+    <ds:age_55>9.1</ds:age_55>
+    <ds:all_ages>9.4</ds:all_ages>
+    <ds:male>13.2</ds:male>
+    <ds:female>5.8</ds:female>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>45.25422910300006</geo:lat>
+        <geo:long>-68.98502586699993</geo:long>
+        <usps:stateAbbr>Maine</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></dsbase:an65-3p9b>
+<dsbase:an65-3p9b rdf:about="http://data.cdc.gov/resource/an65-3p9b/4">
+    <socrata:rowID>4</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/an65-3p9b"/>
+    <ds:state>Massachusetts</ds:state>
+    <ds:age_0_20>1.8</ds:age_0_20>
+    <ds:age_21_34>4.7</ds:age_21_34>
+    <ds:age_35_54>2.2</ds:age_35_54>
+    <ds:age_55>3.9</ds:age_55>
+    <ds:all_ages>2.9</ds:all_ages>
+    <ds:male>4.1</ds:male>
+    <ds:female>1.7</ds:female>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>42.27687400000008</geo:lat>
+        <geo:long>-72.08268726299997</geo:long>
+        <usps:stateAbbr>Massachusetts</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></dsbase:an65-3p9b>
+<dsbase:an65-3p9b rdf:about="http://data.cdc.gov/resource/an65-3p9b/5">
+    <socrata:rowID>5</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/an65-3p9b"/>
+    <ds:state>New Hampshire</ds:state>
+    <ds:age_55>6.8</ds:age_55>
+    <ds:all_ages>5.0</ds:all_ages>
+    <ds:male>7.3</ds:male>
+    <ds:female>2.8</ds:female>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>43.65595283500005</geo:lat>
+        <geo:long>-71.50035697299995</geo:long>
+        <usps:stateAbbr>New Hampshire</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></dsbase:an65-3p9b>
+<dsbase:an65-3p9b rdf:about="http://data.cdc.gov/resource/an65-3p9b/6">
+    <socrata:rowID>6</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/an65-3p9b"/>
+    <ds:state>Rhode Island</ds:state>
+    <ds:all_ages>4.5</ds:all_ages>
+    <ds:male>6.3</ds:male>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>41.70828106100004</geo:lat>
+        <geo:long>-71.52246566099996</geo:long>
+        <usps:stateAbbr>Rhode Island</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></dsbase:an65-3p9b>
+<dsbase:an65-3p9b rdf:about="http://data.cdc.gov/resource/an65-3p9b/7">
+    <socrata:rowID>7</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.cdc.gov/resource/an65-3p9b"/>
+    <ds:state>Vermont</ds:state>
+    <ds:age_21_34>19.2</ds:age_21_34>
+    <ds:all_ages>8.4</ds:all_ages>
+    <ds:male>10.2</ds:male>
+    <ds:female>6.5</ds:female>
+    <ds:location><geo:SpatialThing>
+        <usps:deliveryAddress></usps:deliveryAddress>
+        <usps:cityName></usps:cityName>
+        <geo:lat>43.62538389600007</geo:lat>
+        <geo:long>-72.51763667599994</geo:long>
+        <usps:stateAbbr>Vermont</usps:stateAbbr>
+        <usps:zipCode></usps:zipCode></geo:SpatialThing></ds:location></dsbase:an65-3p9b></rdf:RDF>
